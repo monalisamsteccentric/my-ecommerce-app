@@ -37,7 +37,7 @@ const SignIn = () => {
      if(bool){
       navigate('/')
      }
-  },[bool])
+  },[bool,navigate])
   return (
     <div className="centerbox">
     
