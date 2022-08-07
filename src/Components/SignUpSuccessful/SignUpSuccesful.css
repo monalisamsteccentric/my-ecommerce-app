@@ -1,0 +1,32 @@
+.backgroudPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/1121123/pexels-photo-1121123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+}
+.textBox{
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: plum;
+    color: blueviolet;
+    border-radius: 10px;
+    text-align: center;
+}
+h1{
+    padding: 10px;
+    font-style: italic;
+    align-self: center;
+}
+.btn{
+    margin: 10px;
+    background-color: rgb(237, 46, 46);
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+}

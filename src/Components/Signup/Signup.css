@@ -1,0 +1,34 @@
+.centerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/1121123/pexels-photo-1121123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+}
+.formbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid purple;
+}
+.input{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+.btn{
+    margin: 10px;
+    background-color: rgb(237, 46, 46);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+span{
+    color: white;
+    font-weight: 300;
+}
