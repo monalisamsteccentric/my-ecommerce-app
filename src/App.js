@@ -14,7 +14,7 @@ function App() {
 
  useEffect(()=>{
     dispatch(getProductItems())
- },[])
+ },[dispatch])
   return (
     <BrowserRouter>
     <Routes>

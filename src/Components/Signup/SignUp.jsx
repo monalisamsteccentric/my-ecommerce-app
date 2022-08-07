@@ -50,7 +50,7 @@ const SignUp = () => {
     if(Object.keys(errors).length === 0 && isSignedIn === true){
        navigate('/signupsuccessful')
     }
-  },[errors])
+  },[errors,isSignedIn,navigate])
   return (
     <div className="centerbox">
     
